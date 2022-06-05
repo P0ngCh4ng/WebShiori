@@ -10,5 +10,4 @@ web shiori is a a extention for chrome, used for save the point where you read.
 
 If you click on webpage, this extention will save the point where you read.
 
-Even you close and save to bookmark the webpage, you can open.
-
+Even if you saved it in your bookmarks or temporarily saved it in another extension, you can open it again from there!
