@@ -3,13 +3,11 @@
   "name": "Webshiori",
   "options_page": "options.html",
   "background": { "service_worker": "background.bundle.js" },
+  "permissions": ["tabs"],
   "action": {
-    "default_popup": "popup.html",
-    "default_icon": "icon-34.png"
+    "default_popup": "popup.html"
   },
-  "icons": {
-    "128": "icon-128.png"
-  },
+  "icons": {},
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*", "<all_urls>"],
@@ -20,7 +18,7 @@
   "devtools_page": "devtools.html",
   "web_accessible_resources": [
     {
-      "resources": ["content.styles.css", "icon-128.png", "icon-34.png"],
+      "resources": ["content.styles.css"],
       "matches": []
     }
   ]

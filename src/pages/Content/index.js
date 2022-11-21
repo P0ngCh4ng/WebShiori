@@ -1,8 +1,8 @@
 document.addEventListener(
   'click',
   function (e) {
-    console.log('he');
+    console.log('aaa');
+    // chrome.history.pushState('', '', '#');
   },
   false
 );
-console.log(this);
